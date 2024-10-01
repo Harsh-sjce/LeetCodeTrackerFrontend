@@ -10,7 +10,7 @@ const AddUser = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    axios.post('https://leetcode-leaderboardbackend.vercel.app/add_user', { username: username }, {
+    axios.post('https://leet-code-tracker-backend.vercel.app/add_user', { username: username }, {
       headers: {
         'Authorization': token
       }
