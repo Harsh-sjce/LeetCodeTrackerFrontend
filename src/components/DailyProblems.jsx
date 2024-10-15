@@ -9,8 +9,8 @@ const DailyProblems = () => {
 
   useEffect(() => {
     const fetchProblems = async () => {
-      try {
-        const response = await axios.get('https://leet-code-tracker-backend.vercel.app/daily');
+      try {backend
+        const response = await axios.get('https://leetcode-leaderboardbackend.vercel.app/daily');
         setProblems(response.data);
         setLoading(false);
       } catch (err) {
